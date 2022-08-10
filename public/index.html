@@ -1,215 +1,235 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-  <meta name="description" content="" />
-  <meta name="author" content="" />
-  <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet" />
+  <meta charset="utf-8">
+  <title>George Leinert's Web Portfolio</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
 
-  <title>George Leinert Web Portfolio</title>
-  <!--
-Reflux Template
-https://templatemo.com/tm-531-reflux
--->
-  <!-- Bootstrap core CSS -->
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+  <!-- Favicons -->
+  <link href="img/favicon.png" rel="icon">
+  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
 
-  <!-- Additional CSS Files -->
-  <link rel="stylesheet" href="assets/css/fontawesome.css" />
-  <link rel="stylesheet" href="assets/css/templatemo-style.css" />
-  <link rel="stylesheet" href="assets/css/owl.css" />
-  <link rel="stylesheet" href="assets/css/lightbox.css" />
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Oswald:400,300,700|Lato:400,700" rel="stylesheet">
+
+  <!-- Bootstrap CSS File -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Libraries CSS Files -->
+  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="lib/fancybox/fancybox.css" rel="stylesheet">
+
+  <!-- Main Stylesheet File -->
+  <link href="css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+    Template Name: Studio
+    Template URL: https://templatemag.com/studio-bootstrap-agency-template/
+    Author: TemplateMag.com
+    License: https://templatemag.com/license/
+  ======================================================= -->
 </head>
 
 <body>
-  <div id="page-wraper">
-    <!-- Sidebar Menu -->
-    <div class="responsive-nav">
-      <i class="fa fa-bars" id="menu-toggle"></i>
-      <div id="menu" class="menu">
-        <i class="fa fa-times" id="menu-close"></i>
-        <div class="container">
-          <div class="image">
-            <a href="#"><img src="assets/images/me.jpg" alt="" /></a>
-          </div>
-          <div class="author-content">
-            <h4>George Leinert</h4>
-            <span>Application and Web Developer</span>
-          </div>
-          <nav class="main-nav" role="navigation">
-            <ul class="main-menu">
-              <li><a href="#section1">About Me</a></li>
-              <li><a href="#section2">Coursework</a></li>
-              <li><a href="#section3">Portfolio</a></li>
-              <li><a href="#section4">Contact Me</a></li>
-            </ul>
-          </nav>
-          <div class="social-network">
-            <ul class="soial-icons">
-              <li>
-                <a href="https://www.linkedin.com/in/george-leinert-17661622a/"><i class="fa fa-linkedin"></i></a>
-              </li>
-            </ul>
-          </div>
-          <div class="copyright-text">
-            <p>Copyright 2019 Reflux Design</p>
-          </div>
+
+  <!-- Menu -->
+  <nav class="menu" id="theMenu">
+    <div class="menu-wrap">
+      <h1 class="logo"><a href="#home" class="smoothscroll">George Leinert</a></h1>
+      <i class="fa fa-times menu-close"></i>
+      <a href="#home" class="smoothscroll">Home</a>
+      <a href="#about" class="smoothscroll">About Me</a>
+      <a href="#coursework" class="smoothscroll">Coursework</a>
+      <a href="#services" class="smoothscroll">Portfolio</a>
+      <a href="#resume" class="smoothscroll">Resume</a>
+      <a href="#contact" class="smoothscroll">Contact</a>
+      <a href="https://www.linkedin.com/in/george-leinert-17661622a/" target="_blank"><i class="fa fa-linkedin"></i></a>
+    </div>
+
+    <!-- Menu button -->
+    <div id="menuToggle"><i class="fa fa-bars"></i></div>
+  </nav>
+
+  <section id="home" name="home"></section>
+  <div id="headerwrap">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-md-offset-3">
+          <h1>GEORGE LEINERT</h1>
         </div>
       </div>
     </div>
+  </div>
 
-    <section class="section about-me" data-section="section1">
-      <div class="container">
-        <div class="section-heading">
-          <h2>About Me</h2>
-          <div class="line-dec"></div>
-          <span>I am a student in the Application and Web Development program at Ranken Technical College. I am an
-            aspiring developer looking for an entry level position in the industry.</span>
+  <section id="about" name="about"></section>
+  <div id="aboutwrap">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 name">
+          <img class="img-responsive" src="img/me.jpg">
+          <p>GEORGE LEINERT</p>
+          <div class="name-label"></div>
         </div>
-        <div class="left-image-post">
-          <div class="row">
-            <div class="col-md-6">
-              <div class="left-image">
-                <img src="assets/images/resume.jpg" alt="" />
+        <div class="col-lg-8 name-desc">
+          <h2>ASPIRING WEB DESIGNER & <br/>FRONT-END DEVELOPER <br/></h2>
+          <div class="name-zig"></div>
+
+          <div class="col-md-6">
+            <p>I am a student in the Application and Web Development program at Ranken Technical College. I am an
+              aspiring developer looking for an entry level position in the industry.
+            </p>
+          </div>
+          <div class="col-md-6">
+            <p>I have studied C#, HTML, CSS, and Javascript and would like to use these skills to make a career as a designer and developer.</p>
+          </div>
+
+        </div>
+
+      </div>
+      <!-- /row -->
+    </div>
+    <!-- /container -->
+  </div>
+  <!-- /aboutwrap -->
+
+  <div class="sep about" data-stellar-background-ratio="0.5"></div>
+
+  <section id="coursework" name="portfolio"></section>
+  <div id="portfoliowrap">
+    <div class="container">
+      <div class="row">
+        <h1>COURSEWORK</h1>
+        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 desc">
+          <h3>C# CRUD Application</h3>
+          <div class="project-wrapper">
+            <div class="project">
+              <div class="photo-wrapper">
+                <div class="photo">
+                  <a class="fancybox" href="https://youtu.be/Mq1TIZo0m9M" target="_blank"><img class="img-responsive" src="img/csharp.png" alt=""></a>
+                </div>
+                <div class="overlay"></div>
               </div>
             </div>
-            <div class="col-md-6">
-              <div class="right-text">
-                <h4>Resume</h4>
-                <p>
-                  My resume details my experience and skills as an employee. I believe my background and
-                  abilities will benefit any future employers. </p>
-                <div class="white-button">
-                  <a download target="_blank" href="GeorgeLeinertResumeDraft.pdf">Full Resume</a>
+          </div>
+        </div>
+        <!-- col-lg-4 -->
+
+        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 desc">
+          <h3>React CRUD Application</h3>
+          <div class="project-wrapper">
+            <div class="project">
+              <div class="photo-wrapper">
+                <div class="photo">
+                  <a class="fancybox" href="https://crud-albums.herokuapp.com/"><img class="img-responsive" src="img/react-js.jpg" alt=""></a>
+                </div>
+                <div class="overlay"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- col-lg-4 -->
+
+        <!-- col-lg-4 -->
+      </div>
+      <!-- /row -->
+    </div>
+
+  </div>
+
+  <div class="sep portfolio" data-stellar-background-ratio="0.5"></div>
+
+  <section id="services" name="services"></section>
+  <div id="servicewrap">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8-offset-2 centered">
+          <h1>PORTFOLIO</h1>
+          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 desc">
+            <h3>Website With HTML & CSS</h3>
+            <div class="project-wrapper">
+              <div class="project">
+                <div class="photo-wrapper">
+                  <div class="photo">
+                    <a class="fancybox" href="midterm/index.html"><img class="img-responsive" src="img/html.jpg" alt=""></a>
+                  </div>
+                  <div class="overlay"></div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="section my-services" data-section="section2">
-      <div class="container">
-        <div class="section-heading">
-          <h2>Coursework</h2>
-          <div class="line-dec"></div>
-          <span>These are websites and applications I have created for my Application and Web Development course at
-            Ranken Technical College.</span>
-        </div>
-        <div class="row">
-          <div class="col-md-6">
-            <div class="service-item">
-              <div class="first-service-icon service-icon"></div>
-              <h4>C# CRUD Operations</h4>
-              <p>
-                This is an application I made to showcase my abilities as a developer in C# to create, read, update and
-                delete data.
-              </p>
-              <div class="white-button">
-                <a href="csharpproject.html">View Application</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="section my-services" data-section="section3">
-      <div class="container">
-        <div class="section-heading">
-          <h2>Portfolio</h2>
-          <div class="line-dec"></div>
-          <span>These are websites and applications I have created to showcase my work as a developer.</span>
-        </div>
-        <div class="row">
-          <div class="col-md-6">
-            <div class="service-item">
-              <div class="second-service-icon service-icon"></div>
-              <h4>HTML &amp; CSS</h4>
-              <p>
-                This is a website I made to show my skills working with HTML and CSS to up the look and feel of a
-                website for an event.
-              </p>
-              <div class="white-button">
-                <a href="midterm/index.html">View Website</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="section contact-me" data-section="section4">
-      <div class="container">
-        <div class="section-heading">
-          <h2>Contact Me</h2>
-          <div class="line-dec"></div>
-          <span>Send me an e-mail below if you would like to get in contact with me for any reason.</span>
-        </div>
-        <script type="text/javascript" src="https://form.jotform.com/jsform/221934735365057"></script>
-      </div>
-    </section>
+  
+    </div>
   </div>
 
-  <!-- Scripts -->
-  <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <section id="resume"></section>
+  <div id="testimonials">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2 mt">
+          <h1>Resume</h1>
+          <p>
+            My resume details my experience and skills as an employee. I believe my background and
+            abilities will benefit any future employers. </p>
+            <a download target="_blank" href="georgeleinertresumedraft.pdf"><button type="button" class="btn btn-dark">Full Resume</button></a>
+        </div>
+      </div>
+    </div>
+  </div>
 
-  <script src="assets/js/isotope.min.js"></script>
-  <script src="assets/js/owl-carousel.js"></script>
-  <script src="assets/js/lightbox.js"></script>
-  <script src="assets/js/custom.js"></script>
-  <script>
-    //according to loftblog tut
-    $(".main-menu li:first").addClass("active");
+  <div class="sep contact" data-stellar-background-ratio="0.5"></div>
 
-    var showSection = function showSection(section, isAnimate) {
-      var direction = section.replace(/#/, ""),
-        reqSection = $(".section").filter(
-          '[data-section="' + direction + '"]'
-        ),
-        reqSectionPos = reqSection.offset().top - 0;
+  <div id="contactwrap">
+    <section id="contact" name="contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <p>Contact Me</p>
+          <p>Send me an e-mail to get in contact with me.</p>
+          <p>
+            <small>George_Leinert@InsideRanken.org
+					</p>
 
-      if (isAnimate) {
-        $("body, html").animate({
-            scrollTop: reqSectionPos
-          },
-          800
-        );
-      } else {
-        $("body, html").scrollTop(reqSectionPos);
-      }
-    };
+				</div>
 
-    var checkSection = function checkSection() {
-      $(".section").each(function () {
-        var $this = $(this),
-          topEdge = $this.offset().top - 80,
-          bottomEdge = topEdge + $this.height(),
-          wScroll = $(window).scrollTop();
-        if (topEdge < wScroll && bottomEdge > wScroll) {
-          var currentId = $this.data("section"),
-            reqLink = $("a").filter("[href*=\\#" + currentId + "]");
-          reqLink
-            .closest("li")
-            .addClass("active")
-            .siblings()
-            .removeClass("active");
-        }
-      });
-    };
+				<div class="col-lg-6">
+          <script type="text/javascript" src="https://form.jotform.com/jsform/221934735365057"></script>
+				</div>
 
-    $(".main-menu").on("click", "a", function (e) {
-      e.preventDefault();
-      showSection($(this).attr("href"), true);
-    });
+			</div>
+    </section>
+		</div><!-- /container -->
+	</div>
 
-    $(window).scroll(function () {
-      checkSection();
-    });
-  </script>
+  <div id="copyrights">
+    <div class="container">
+      <p>
+        &copy; Copyrights <strong>Studio</strong>. All Rights Reserved
+      </p>
+      <div class="credits">
+        <!--
+          You are NOT allowed to delete the credit link to TemplateMag with free version.
+          You can delete the credit link only if you bought the pro version.
+          Buy the pro version with working PHP/AJAX contact form: https://templatemag.com/studio-bootstrap-agency-template/
+          Licensing information: https://templatemag.com/license/
+        -->
+        Created with Studio template by <a href="https://templatemag.com/">TemplateMag</a>
+      </div>
+    </div>
+  </div>
+  <!-- / copyrights -->
+
+  <!-- JavaScript Libraries -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+  <script src="lib/php-mail-form/validate.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/stellar/stellar.min.js"></script>
+  <script src="lib/fancybox/fancybox.js"></script>
+
+  <!-- Template Main Javascript File -->
+  <script src="js/main.js"></script>
+
 </body>
-
 </html>
